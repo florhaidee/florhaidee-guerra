@@ -1,0 +1,38 @@
+[
+    {
+        "title": "In memoriam",
+        "imagePath": "../assets/images/memorial.png",
+        "liveUrl": "https://alwaysremember.herokuapp.com/",
+        "gitHub": "https://github.com/florhaidee/memorial"
+    },
+    {
+        "title": "Just Breathe",
+        "imagePath": "../assets/images/just-breathe.JPG",
+        "liveUrl": "https://florhaidee.github.io/just-breathe/",
+        "gitHub": "https://github.com/florhaidee/just-breathe"
+    },
+    {
+        "title": "Tracking-Budget",
+        "imagePath": "../assets/images/tracking-budget.png",
+        "liveUrl": "https://aqueous-badlands-76578.herokuapp.com/",
+        "gitHub": "https://github.com/florhaidee/tracking-budget"
+    },
+    {
+        "title": "Weather Dashboard",
+        "imagePath": "/florhaidee-guerra/src/assets/images/weather-dashboard.png",
+        "liveUrl": "https://florhaidee.github.io/weather-dashboard/",
+        "gitHub": "https://github.com/florhaidee/weather-dashboard"
+    },
+    {
+        "title": "Tech News",
+        "imagePath": "/src/assets/images/TechNews.png",
+        "liveUrl": "https://gentle-bayou-27027.herokuapp.com/",
+        "gitHub": "https://github.com/florhaidee/TechNews"
+    },
+    {
+        "title": "Note Taker",
+        "imagePath": "../assets/images/note-taker.png",
+        "liveUrl": "https://salty-tor-82151.herokuapp.com/",
+        "gitHub": "https://github.com/florhaidee/note-taker"
+    }
+]
