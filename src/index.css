@@ -9,11 +9,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --primary: #f4acb7;
+  --secondary: #3b061a;
+  --tertiary: #b2f7ef;
   --light: #fafafa;
-  --dark: #000000;
+  --dark: #9d8189;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
