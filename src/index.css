@@ -317,3 +317,7 @@ a {
   justify-content: left;
   align-items: left;
 }
+
+.skills div svg{
+  color: var(--tertiary)
+}

@@ -7,13 +7,13 @@ const backEnd = [ "Node.js", "Express", "NoSQL: MongoDB", "SQL: sqlite, MySQL", 
 const others = ["Version Control: Git, GitHub", "Visual Studio Code", "Object-Oriented Programming (OOP)", "Model-View-Controller (MVC)" , "Progressive Web Applications (PWA)"]
 
 function Resume() {
-
+    
     return (
         <section>
             <h3>Searching for incredible experiences...</h3>
             <h4>And improve my skills</h4>
             <br></br>
-            <div><h3>Click <a href="src\assets\FlorhaideeGuerra-Resume.pdf">Here!</a>to download my resume</h3></div>
+            <div><h3>Click <a href="https://github.com/florhaidee/florhaidee-guerra/raw/feature/resume/src/assets/FlorhaideeGuerra-Resume.pdf">Here!</a>to download my resume</h3></div>
             <div className="resume my-5">
                 <div id="frontEnd">
                     <h3>Front-End Skills</h3>
