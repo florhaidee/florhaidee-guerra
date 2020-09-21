@@ -1,12 +1,10 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import projects from  '../../utils/projects.json'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 function Project() {
   return (
-
     <Carousel autoPlay>
       {projects.map( (project) => (
         <div className="project" key={project.title}>

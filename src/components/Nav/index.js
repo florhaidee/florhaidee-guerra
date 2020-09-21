@@ -9,21 +9,21 @@ function Nav(props) {
 
   return (
     <nav>
-        <ul className="flex-row">
-          {navigation.map((section) => (
-            <li className={`mx-1 ${ currentNavigation.name === section.name && `navActive`}`}
-              key={section.name}
+      <ul className="flex-row">
+        {navigation.map((section) => (
+          <li className={`mx-1 py-1 ${ currentNavigation.name === section.name && `navActive`}`}
+            key={section.name}
+          >
+            <span
+              onClick={() => {
+                setCurrentNavigation(section)
+              }}
             >
-              <span
-                onClick={() => {
-                  setCurrentNavigation(section)
-                }}
-              >
-                {section.name}
-              </span>
-            </li>
-          ))}
-        </ul>
+              {section.name}
+            </span>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 }

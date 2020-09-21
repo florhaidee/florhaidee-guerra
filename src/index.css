@@ -52,14 +52,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  color: var(--secondary);
+  font-weight: bold;
 }
 
 h1 {
   font-size: 2.25rem;
+
 }
 
 h2 {
@@ -83,7 +86,7 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 
@@ -94,15 +97,21 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--secondary);
 }
 
+/* Header Style*/
 header {
   background: var(--dark);
+  height: 6rem;
+  justify-content: space-between;
+  padding: 1.5rem;
 }
 
 header a {
   color: var(--light);
+  font-size: 2.5rem;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 button {
@@ -156,13 +165,16 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
+/*Nav style*/
+nav li:hover {
+  background-color: var(--tertiary);
+  font-style: bold;
 }
-
 nav  li {
   cursor: pointer;
   color: var(--light);
+  font-size: 2rem;
+  padding: .5rem;
 }
 
 textarea {
@@ -170,13 +182,6 @@ textarea {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-row {
@@ -275,22 +280,26 @@ a {
   color: var(--secondary);
 }
 
+/*About style*/
 .about {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.about img{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: .7rem;
+  max-width: 100%;
+  height: auto;
+}
 
-
+/*Proyect Style*/
 .carousel .slide {
   background-color: var(--light);
 }
-
 .carousel .slide .legend {
-  background-color: var(--secondary);
-}
-.carousel {
-  width: 100%;
+  background-color: var(--tertiary);
 }
 .carousel ul li {
   width: 100%;
@@ -306,23 +315,23 @@ a {
   margin: 0%;
 }
 
+/* Resume Style*/
 .resume {
   display: flex;
   justify-content: space-between;
   align-items: left;
 }
-
 .skills {
   display: flex;
   justify-content: left;
   align-items: left;
 }
-
 .subtitle {
   color: var(--secondary);
   font-weight: bold;
 }
 
+/*Footer Style*/
 footer {
   display: flex;
   justify-content: space-around;
@@ -331,7 +340,6 @@ footer {
   border-top: double;
   border-width: 40%;
 }
-
 footer div {
   display: flex;
   justify-content: space-around;
