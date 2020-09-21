@@ -11,10 +11,7 @@ function Nav(props) {
     <nav>
         <ul className="flex-row">
           {navigation.map((section) => (
-            <li
-              className={`mx-1 ${
-                currentNavigation.name === section.name && `navActive`
-                }`}
+            <li className={`mx-1 ${ currentNavigation.name === section.name && `navActive`}`}
               key={section.name}
             >
               <span

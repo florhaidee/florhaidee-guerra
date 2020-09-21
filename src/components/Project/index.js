@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import projects from  '../../utils/projects.json'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 const Project = () => {
-  const thumbWidth = "10%";
   return (
 
     <Carousel autoPlay>
