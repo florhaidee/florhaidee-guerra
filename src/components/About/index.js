@@ -1,11 +1,18 @@
 import React from 'react';
 import coverImage from "../../assets/images/me.jpg";
+import Typical from 'react-typical'
 
+const steps = [
+    `Hi!!`, 2000,
+    `Thanks for comming by,`, 1000,
+    `Just a few things about me:`, 2000,
+];
 function About() {
 
     return (
         <section >
             <h1 id="about" className="my-5">Full Stak Web Developer</h1>
+            <Typical wrapper="span" steps={steps} loop={1} className={'intro'} />
             <div className="about">
                 <img src={coverImage} className="my-2 mx-2" style={{ width: "20%" }} alt="cover" />
                 <section className="my-5 mx-2">

@@ -293,7 +293,11 @@ a {
   max-width: 100%;
   height: auto;
 }
-
+.intro {
+  font-size: 2rem;
+  font-family: 'Fredericka the Great', cursive;
+  color: var(--tertiary);
+}
 /*Proyect Style*/
 .carousel .slide {
   background-color: var(--light);
