@@ -305,3 +305,15 @@ a {
   height: 100%;
   margin: 0%;
 }
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.skills {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}

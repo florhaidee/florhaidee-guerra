@@ -3,7 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import projects from  '../../utils/projects.json'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-const Project = () => {
+
+function Project() {
   return (
 
     <Carousel autoPlay>

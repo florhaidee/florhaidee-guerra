@@ -4,6 +4,8 @@ import About from './components/About'
 import Portfolio from './components/Portfolio'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
+
 
 function App() {
   const [navigation] = useState([
@@ -27,6 +29,8 @@ function App() {
               return <Portfolio />;
             case 'Contact':
               return <ContactForm />;
+            case 'Resume':
+              return <Resume />;
             default:
               return <About />;
           }
