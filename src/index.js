@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './index.css';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

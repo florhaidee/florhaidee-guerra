@@ -10,7 +10,7 @@ main {
 :root {
   --primary: #f4acb7;
   --secondary: #3b061a;
-  --tertiary: #b2f7ef;
+  --tertiary: #6eb1a9;
   --light: #fafafa;
   --dark: #9d8189;
   --error: rgb(228, 46, 1);
@@ -318,6 +318,7 @@ a {
   align-items: left;
 }
 
-.skills div svg{
-  color: var(--tertiary)
+.subtitle {
+  color: var(--secondary);
+  font-weight: bold;
 }
