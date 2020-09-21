@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/florhaidee-guerra/static/css/main.98ebdce2.chunk.css",
+    "main.js": "/florhaidee-guerra/static/js/main.0208581f.chunk.js",
+    "main.js.map": "/florhaidee-guerra/static/js/main.0208581f.chunk.js.map",
+    "runtime-main.js": "/florhaidee-guerra/static/js/runtime-main.8b52a040.js",
+    "runtime-main.js.map": "/florhaidee-guerra/static/js/runtime-main.8b52a040.js.map",
+    "static/css/2.fb346933.chunk.css": "/florhaidee-guerra/static/css/2.fb346933.chunk.css",
+    "static/js/2.e228e604.chunk.js": "/florhaidee-guerra/static/js/2.e228e604.chunk.js",
+    "static/js/2.e228e604.chunk.js.map": "/florhaidee-guerra/static/js/2.e228e604.chunk.js.map",
+    "index.html": "/florhaidee-guerra/index.html",
+    "precache-manifest.6679912c057998501015e1525a62e58f.js": "/florhaidee-guerra/precache-manifest.6679912c057998501015e1525a62e58f.js",
+    "service-worker.js": "/florhaidee-guerra/service-worker.js",
+    "static/css/2.fb346933.chunk.css.map": "/florhaidee-guerra/static/css/2.fb346933.chunk.css.map",
+    "static/css/main.98ebdce2.chunk.css.map": "/florhaidee-guerra/static/css/main.98ebdce2.chunk.css.map",
+    "static/js/2.e228e604.chunk.js.LICENSE.txt": "/florhaidee-guerra/static/js/2.e228e604.chunk.js.LICENSE.txt",
+    "static/media/me.jpg": "/florhaidee-guerra/static/media/me.d836129c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b52a040.js",
+    "static/css/2.fb346933.chunk.css",
+    "static/js/2.e228e604.chunk.js",
+    "static/css/main.98ebdce2.chunk.css",
+    "static/js/main.0208581f.chunk.js"
+  ]
+}
