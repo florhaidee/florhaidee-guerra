@@ -10,7 +10,7 @@ const steps = [
 function About() {
 
     return (
-        <section >
+        <section className="flex-wrap">
             <h1 id="about" className="my-5">Full Stak Web Developer</h1>
             <Typical wrapper="span" steps={steps} loop={1} className={'intro'} />
             <div className="about">

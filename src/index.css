@@ -4,7 +4,8 @@ code {
 }
 
 main {
-	max-width: 100%;
+  max-width: 90%;
+  max-height: 50%;
   margin: 5%;
 }
 :root {
@@ -26,7 +27,7 @@ main {
 
 html,
 body {
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
@@ -100,20 +101,6 @@ a:hover {
   color: var(--secondary);
 }
 
-/* Header Style*/
-header {
-  background: var(--dark);
-  height: 6rem;
-  justify-content: space-between;
-  padding: 1.5rem;
-}
-
-header a {
-  color: var(--light);
-  font-size: 2.5rem;
-  font-family: 'Fredericka the Great', cursive;
-}
-
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -165,6 +152,21 @@ li {
   list-style: none;
 }
 
+
+/* Header Style*/
+header {
+  background: var(--dark);
+  height: 6rem;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+header a {
+  color: var(--light);
+  font-size: 2.5rem;
+  font-family: 'Fredericka the Great', cursive;
+  margin-bottom: 0;
+}
+
 /*Nav style*/
 nav li:hover {
   background-color: var(--tertiary);
@@ -175,6 +177,9 @@ nav  li {
   color: var(--light);
   font-size: 2rem;
   padding: .5rem;
+}
+.navActive {
+  color: var(--secondary);
 }
 
 textarea {
@@ -242,11 +247,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -274,10 +274,6 @@ a {
 	margin-left: -2px;
 	margin-right: -2px;
 	
-}
-
-.navActive {
-  color: var(--secondary);
 }
 
 /*About style*/
@@ -315,8 +311,11 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 8rem;
   margin: 0%;
+}
+.carousel .thumb {
+  width: 20rem;
 }
 
 /* Resume Style*/
@@ -344,8 +343,98 @@ footer {
   border-top: double;
   border-width: 40%;
 }
-footer div {
+.align-center {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1200px) {
+  header {
+    text-align: center;
+    padding: 0 !important;
+    width: 100;
+  }
+  header a {
+    background-color: var(--dark);
+    width: 100%;
+  }
+  nav{   
+    background-color: var(--dark);
+    width: 100%;
+  }
+
+  nav ul li {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
+    background-color: var(--dark);
+  }
+  main {
+    text-align: center;
+    background-position: fixed;
+    background-attachment: fixed;
+    padding: 15% 0 0 0;
+  }
+
+  .about {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  h1,h2, h3{
+    font-size: 1.5rem
+  }
+
+  header a{
+    font-size: 2rem;
+  }
+
+  nav li {
+    font-size: 1.2rem;
+  }
+  main{
+    padding-top: 25%;
+  }
+  #about, .about{
+    font-size: 1.8rem;
+  }
+  .about img {
+    width: 50%;
+  }
+  
+  .about p {
+    font-size: .9rem;
+  }
+
+  .project-container {
+    width: 100%;
+    height: 100;
+  }
+  .carousel .thumbs-wrapper{
+    width: 100%;
+    height: 100%;
+  }
+  .carousel .slide .legend {
+    width: 100%;
+    height: 35%;
+  }
+  .align-center a{
+    width: 40%;
+  }
+
+  .resume {
+    flex-wrap: wrap;
+    font-size: 1.5rem;;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  #frontEnd p, #backEnd p, #otherSkills p {
+    font-size: 1rem;
+  }
 }

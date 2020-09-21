@@ -6,7 +6,7 @@ import mail  from 'react-useanimations/lib/mail'
 
 function Footer() {
  return (
-    <div>
+    <div className="align-center">
 
         <a href="https://github.com/florhaidee" target="_blank" rel="noopener noreferrer">
         <UseAnimations
