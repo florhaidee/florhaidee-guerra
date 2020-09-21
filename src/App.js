@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
-
+import Footer from './components/Footer'
 
 function App() {
   const [navigation] = useState([
@@ -36,6 +36,10 @@ function App() {
           }
         })()}
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
+
     </div>
   );
 }

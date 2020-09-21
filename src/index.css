@@ -322,3 +322,18 @@ a {
   color: var(--secondary);
   font-weight: bold;
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: #3b061a;
+  border-top: double;
+  border-width: 40%;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
