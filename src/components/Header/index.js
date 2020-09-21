@@ -10,11 +10,11 @@ function Header(props) {
 
   return (
     <header className="flex-row px-1">
-        <h2>
+        <h1>
             <a data-testid="link" href="/">
                 Florhaidee Guerra
             </a>
-        </h2>
+        </h1>
         <Nav
             navigation={navigation}
             setCurrentNavigation={setCurrentNavigation}

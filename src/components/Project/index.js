@@ -1,20 +1,25 @@
 import React, {useState} from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import projects from  '../../utils/projects.json'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-
-const Project = ({project}) => {
-  const {title,imagePath,liveUrl,gitHub} = project
-
+const Project = () => {
+  const thumbWidth = "10%";
   return (
-    <div>
-      <img alt={title} src={"https://i.imgur.com/xm1xGNnm.jpg"}/>
-      <div className="legend">
-        <p>{title}</p>
-        <a href={liveUrl} target="_blank" rel="noopener noreferrer">LiveUrl </a>
-        <a href={gitHub} target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </div>
-  );
-};
+
+    <Carousel autoPlay>
+      {projects.map( (project) => (
+        <div className="project" key={project.title}>
+          <img alt={project.title} src={project.imagePath}/>
+          <div className="legend">
+            <p>{project.title}</p>
+            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">LiveUrl </a>
+            <a href={project.gitHub} target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      ))}
+    </Carousel>
+  )
+}
 
 export default Project;

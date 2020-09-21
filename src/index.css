@@ -4,9 +4,8 @@ code {
 }
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+	max-width: 100%;
+  margin: 5%;
 }
 :root {
   --primary: #f4acb7;
@@ -14,7 +13,6 @@ main {
   --tertiary: #b2f7ef;
   --light: #fafafa;
   --dark: #9d8189;
-  --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -46,6 +44,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 h1,
 h2,
@@ -250,32 +249,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 button {
 	background: var(--primary);
 	border: 0;
@@ -306,4 +279,29 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+
+.carousel .slide {
+  background-color: var(--light);
+}
+
+.carousel .slide .legend {
+  background-color: var(--secondary);
+}
+.carousel {
+  width: 100%;
+}
+.carousel ul li {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .thumbs-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
 }
