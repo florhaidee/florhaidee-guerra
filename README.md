@@ -1,68 +1,77 @@
+# React Portfolio ![badge](https://img.shields.io/badge/license-MIT-blue) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
 
-## Available Scripts
+  ## Description 
 
-In the project directory, you can run:
+  A Single-Page Application build it with React. In there you can see my more recent projects and download my resume!
+  
+  ![Main page](./src/assets/images/screenshots/about-me.png)
 
-### `npm start`
+  ## Table of Contents 
+  * [Libraries](#Libraries)
+  * [Usage](#usage)
+  * [Features](#Features)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  
+  ## Libraries
+   The libraries used on this app were:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    * "react": "^16.13.1",
+    * "react-border-wrapper": "^1.0.3",
+    * "react-dom": "^16.13.1",
+    * "react-responsive-carousel": "^3.2.9",
+    * "react-scripts": "3.4.3",
+    * "react-typical": "^0.1.3",
+    * "react-useanimations": "^2.0.5"
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  ## Usage
 
-### `npm test`
+  To go to the deployed application go to:
+https://florhaidee.github.io/florhaidee-guerra/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## Features
 
-### `npm run build`
+  * When users open the application the main page display the About me Section, 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![main page](./src/assets/images/screenshots/about-me.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* There other three sections: Portfolio, Resume and Contact, here the screenshots:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![portfolio](./src/assets/images/screenshots/projects.png)
 
-### `npm run eject`
+![resume](./src/assets/images/screenshots/resume.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![contact](./src/assets/images/screenshots/contact.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   **Contact Form, still in development!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    Copyright © 2020 florhaidee. 
+    Licensed under the MIT to see more about this license you can find it on the file 'license.txt' go to [MIT-license](LICENSE) 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ## Contributing 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+    Visit:
+https://www.contributor-covenant.org/version/2/0/code_of_conduct/ to have more information.
 
-### Code Splitting
+    To contribute 
+     * Add an issue
+     * Create a new branch with format-name: 
+        - (feature/name/your-name) or (bug/name/your-name) 
+     * Make a pull request.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  ## Questions
 
-### Analyzing the Bundle Size
+    If you have more questions about this application, you can contact me by:
+      email: florhaideeg@gmail.com
+      GitHub username: florhaidee
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  ## ©️2020  Made with ❤️ by florhaidee
