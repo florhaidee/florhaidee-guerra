@@ -45,7 +45,7 @@ https://florhaidee.github.io/florhaidee-guerra/
 
 ![resume](./src/assets/images/screenshots/resume.png)
 
-![contact](./src/assets/images/screenshots/about-me.png)
+![contact](./src/assets/images/screenshots/contact.png)
 
    **Contact Form, still in development!
 
