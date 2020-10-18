@@ -1,10 +1,13 @@
 import React, {useState} from 'react'
 import { validateEmail } from '../../utils/helpers';
+import emailjs from "emailjs-com";
 
 function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
+    const [submitMessage, setSubmitMessage] = useState('');
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
+
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -29,6 +32,25 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+
+        emailjs.sendForm( 
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            e.target,
+            process.env.REACT_APP_EMAILJS_USER_ID)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            setSubmitMessage('EMAIL SEND!')
+        }, function(error) {
+            console.log('FAILED...', error);
+            setErrorMessage('FAILED...');
+        });
+
+        setFormState({
+            name: '',
+            email: '',
+            message: '',
+        });
     }
     return (
         <section>
@@ -36,7 +58,7 @@ function ContactForm() {
             <form id="contact-form" onSubmit={handleSubmit}>
                 {/* name input */}
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name"> Full Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
                 </div>
                 {/*  email input */}
@@ -55,8 +77,13 @@ function ContactForm() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
                 )}
+                {submitMessage && (
+                <div>
+                    <p >{submitMessage}</p>
+                </div>
+                )}
                 <button type="submit">Submit</button>
-          </form>
+            </form>
         </section>
     )
 }
