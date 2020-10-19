@@ -1,5 +1,11 @@
 [
     {
+        "title": "Book Forum",
+        "imagePath": "https://github.com/florhaidee/florhaidee-guerra/blob/feature/portfolio/src/assets/images/book-forum.png?raw=true",
+        "liveUrl": "https://book-forum.herokuapp.com/",
+        "gitHub": "https://github.com/florhaidee/book-forum"
+    },
+    {
         "title": "In memoriam",
         "imagePath": "https://github.com/florhaidee/memorial/blob/master/public/images/memorial-home.png?raw=true",
         "liveUrl": "https://alwaysremember.herokuapp.com/",
