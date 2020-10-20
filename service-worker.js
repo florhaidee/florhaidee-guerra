@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/florhaidee-guerra/precache-manifest.4447422a25bbf38ef69e0c4bcbcb8db1.js"
+  "/florhaidee-guerra/precache-manifest.c883069014295906f5a3b613ed74c8e2.js"
 );
 
 self.addEventListener('message', (event) => {
