@@ -13,21 +13,23 @@ function Project() {
         <div className="project" key={project.title}>
           <img alt={project.title} src={project.imagePath}/>
           <div className="legend">
-            <p>{project.title}</p>
+            <h5>{project.title}</h5>
+            <h6>{project.description}</h6>
+            <h6>{project.technologies}</h6>
             <div className="align-center">
               <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                 <UseAnimations
                 animation={explore}
-                size={65}
+                size={46}
                 pathCss="stroke:  #3b061a; stroke-width: 5%;"
-                /> <span>Demo URL</span>
+                /> <span>Demo</span>
               </a>
               <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
                 <UseAnimations
                 animation={github}
-                size={65}
+                size={46}
                 pathCss="stroke:  #3b061a; stroke-width: 5%;"
-                /> <span>GitHub URL</span>
+                /> <span>GitHub</span>
               </a>
             </div>
           </div>

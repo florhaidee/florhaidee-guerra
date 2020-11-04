@@ -2,42 +2,56 @@
     {
         "title": "Book Forum",
         "imagePath": "https://github.com/florhaidee/book-forum/blob/master/client/public/images/book-forum.png?raw=true",
+        "description": "Interactive MERN SPA app, where users can discuss books, signup/login, and comment on other user’s posts.",
+        "technologies": "MERN, JS, CSS, Bootstrap, JQuery",
         "liveUrl": "https://book-forum.herokuapp.com/",
         "gitHub": "https://github.com/florhaidee/book-forum"
     },
     {
         "title": "In memoriam",
         "imagePath": "https://github.com/florhaidee/memorial/blob/master/public/images/memorial-home.png?raw=true",
+        "description": "Interactive full-stack project that allows users to openly post and comment about loved ones that have passed away.",
+        "technologies": "JS, AWS S3, MySQL, Express, Sequelize, JQuery",
         "liveUrl": "https://alwaysremember.herokuapp.com/",
         "gitHub": "https://github.com/florhaidee/memorial"
     },
     {
         "title": "Just Breathe",
         "imagePath": "https://github.com/florhaidee/just-breathe/blob/master/assets/images/readme/main-page.JPG?raw=true",
+        "description": "Interactive front-end project, which uses third-party APIs, to display air quality index, pollen count, and temperature for a given city.",
+        "technologies": "HTML5, CSS3, JS, JQuery",
         "liveUrl": "https://florhaidee.github.io/just-breathe/",
         "gitHub": "https://github.com/florhaidee/just-breathe"
     },
     {
         "title": "Tracking-Budget",
         "imagePath": "https://github.com/florhaidee/florhaidee-guerra/blob/feature/portfolio/src/assets/images/tracking-budget.png?raw=true",
+        "description": "A PWA app that allows users a fast and easy way to track their money, with or without internet connection.",
+        "technologies": "HTML5, CSS3, JS, JQuery, Mongoose, Express",
         "liveUrl": "https://aqueous-badlands-76578.herokuapp.com/",
         "gitHub": "https://github.com/florhaidee/tracking-budget"
     },
     {
         "title": "Weather Dashboard",
         "imagePath": "https://github.com/florhaidee/florhaidee-guerra/blob/feature/portfolio/src/assets/images/weather-dashboard.png?raw=true",
+        "description": "Sinple App to check the weather.",
+        "technologies": "HTML5, CSS3, JS, JQuery, Bootstrap, LocalStorage",
         "liveUrl": "https://florhaidee.github.io/weather-dashboard/",
         "gitHub": "https://github.com/florhaidee/weather-dashboard"
     },
     {
         "title": "Tech News",
         "imagePath": "https://github.com/florhaidee/florhaidee-guerra/blob/feature/portfolio/src/assets/images/TechNews.png?raw=true",
+        "description": "A Tech blog where users can login and add post and/or comments to it.",
+        "technologies": "HTML5, CSS3, JS, JQuery, MySQL, Express",
         "liveUrl": "https://gentle-bayou-27027.herokuapp.com/",
         "gitHub": "https://github.com/florhaidee/TechNews"
     },
     {
         "title": "Note Taker",
         "imagePath": "https://github.com/florhaidee/florhaidee-guerra/blob/feature/portfolio/src/assets/images/note-taker.png?raw=true",
+        "description": "An application to write and save notes. ",
+        "technologies": "HTML5, CSS3, JS, JQuery, Express",
         "liveUrl": "https://salty-tor-82151.herokuapp.com/",
         "gitHub": "https://github.com/florhaidee/note-taker"
     }

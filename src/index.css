@@ -4,9 +4,9 @@ code {
 }
 
 main {
-  max-width: 90%;
+  max-width: 100%;
   max-height: 50%;
-  margin: 5%;
+  margin: 7%;
 }
 :root {
   --primary: #f4acb7;
@@ -18,7 +18,8 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
+  max-width: 100%;
+  max-height: 100%;
 }
 
 * {
@@ -45,7 +46,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 h1,
 h2,
@@ -292,10 +292,13 @@ a {
   color: var(--tertiary);
 }
 /*Project Style*/
+.project {
+  display: flex;
+}
 .carousel .slide {
   background-color: var(--light);
 }
-.carousel .slide a span {
+.carousel .slide a span, .carousel .slide .legend h5, h6 {
   color: var(--light);
 }
 .carousel .slide .legend {
@@ -316,6 +319,14 @@ a {
 }
 .carousel .thumb {
   width: 20rem;
+}
+p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.rwd-break {
+  display: block;
 }
 
 /* Resume Style*/
@@ -354,7 +365,7 @@ footer {
   header {
     text-align: center;
     padding: 0 !important;
-    width: 100;
+    width: 100%;
   }
   header a {
     background-color: var(--dark);
@@ -375,7 +386,7 @@ footer {
     text-align: center;
     background-position: fixed;
     background-attachment: fixed;
-    padding: 15% 0 0 0;
+    padding: 2% 0 0 0;
   }
 
   .about {
@@ -383,22 +394,57 @@ footer {
   }
 
 }
+@media screen and (max-width: 768px) {
+  h1,h2, h3{
+    font-size: 1.5rem
+  }
+  h5 {
+    font-size: 0.6rem;
+  }
+  h6 {
+    font-size: 0.5rem;
+  }
+  header, nav {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  nav, ul, li{
+    padding: 0%;
+    margin: 0%;
+  }
+  main{
+    padding-top: 5%;
+  }
+  textarea {
+    width: 500px;
+    height: 100%;
+  }
+}
 
 @media screen and (max-width: 575px) {
 
   h1,h2, h3{
     font-size: 1.5rem
   }
-
+  h5 {
+    font-size: 0.6rem;
+  }
+  h6 {
+    font-size: 0.5rem;
+  }
   header a{
     font-size: 2rem;
   }
-
+  header, nav {
+    width: 100%;
+    padding: 0.2rem;
+  }
   nav li {
     font-size: 1.2rem;
   }
   main{
-    padding-top: 25%;
+    padding-top: 10%;
   }
   #about, .about{
     font-size: 1.8rem;
@@ -411,20 +457,28 @@ footer {
     font-size: .9rem;
   }
 
-  .project-container {
-    width: 100%;
-    height: 100;
-  }
-  .carousel .thumbs-wrapper{
+  .project {
     width: 100%;
     height: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .project-container {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
   }
   .carousel .slide .legend {
     width: 100%;
-    height: 35%;
+    height: 50%;
+    padding: 0%;
+    margin: 0%;
+    left: 0%;
   }
-  .align-center a{
-    width: 40%;
+  .align-center a div{
+    margin: 0%;
+    padding: 0%;
   }
 
   .resume {
@@ -437,4 +491,22 @@ footer {
   #frontEnd p, #backEnd p, #otherSkills p {
     font-size: 1rem;
   }
+  textarea {
+    width: 300px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  nav, ul, li{
+    padding: 0%;
+    margin: 0%;
+  }
+  main{
+    padding-top: 25%;
+  }
+ textarea {
+   width: 200px;
+   height: 100%;
+ }
 }
