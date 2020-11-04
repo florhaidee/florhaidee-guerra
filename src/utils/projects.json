@@ -1,7 +1,7 @@
 [
     {
         "title": "Book Forum",
-        "imagePath": "https://github.com/florhaidee/florhaidee-guerra/blob/master/portfolio/src/assets/images/book-forum.png?raw=true",
+        "imagePath": "https://github.com/florhaidee/book-forum/blob/master/client/public/images/book-forum.png?raw=true",
         "liveUrl": "https://book-forum.herokuapp.com/",
         "gitHub": "https://github.com/florhaidee/book-forum"
     },
