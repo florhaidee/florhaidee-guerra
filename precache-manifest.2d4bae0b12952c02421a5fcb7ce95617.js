@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3de90cc767fcaf273c208b77e2b65786",
+    "revision": "7d45898a9e2e24026c134bdc6310311d",
     "url": "/florhaidee-guerra/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/florhaidee-guerra/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "b93b8655cb6884cdf02e",
-    "url": "/florhaidee-guerra/static/css/main.98ebdce2.chunk.css"
+    "revision": "976a7795b112201acbe0",
+    "url": "/florhaidee-guerra/static/css/main.f457b76c.chunk.css"
   },
   {
     "revision": "b1b4317855062c6b5bf9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/florhaidee-guerra/static/js/2.7578037d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b93b8655cb6884cdf02e",
-    "url": "/florhaidee-guerra/static/js/main.ead2ebce.chunk.js"
+    "revision": "976a7795b112201acbe0",
+    "url": "/florhaidee-guerra/static/js/main.4c88cd03.chunk.js"
   },
   {
     "revision": "13f839ec4fb74195aba4",
