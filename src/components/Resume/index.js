@@ -18,7 +18,7 @@ function Resume() {
         <section>
             <Typical wrapper="span" steps={step1} loop={1} className={'intro'} />
             <br></br>
-            <div><h3>Click <a href="https://github.com/florhaidee/florhaidee-guerra/raw/feature/resume/src/assets/FlorhaideeGuerra-Resume.pdf">Here!</a>to download my resume</h3></div>
+            <div><h3>Click <a href="https://github.com/florhaidee/florhaidee-guerra/raw/feature/resume/src/assets/F-Guerra-resume.pdf">Here!</a>to download my resume</h3></div>
             <br></br>
             <BorderWrapper borderColour="#6eb1a9">
             <div className="resume my-1">
