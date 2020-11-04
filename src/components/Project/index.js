@@ -20,14 +20,14 @@ function Project() {
                 animation={explore}
                 size={65}
                 pathCss="stroke:  #3b061a; stroke-width: 5%;"
-                /> 
+                /> <span>Demo URL</span>
               </a>
               <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
                 <UseAnimations
                 animation={github}
                 size={65}
                 pathCss="stroke:  #3b061a; stroke-width: 5%;"
-                />
+                /> <span>GitHub URL</span>
               </a>
             </div>
           </div>
